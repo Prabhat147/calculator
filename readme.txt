@@ -1,1 +1,1 @@
-This is the readme file for the calculator.
+This is a simple calculator made in HTMl and CSS.
