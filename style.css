@@ -3,5 +3,35 @@
     color: azure;
 }
 fieldset{
-    position: relative;
+    position: relative ; 
+    margin: auto;
+    background: rgb(24, 73, 95);
+    border-radius: 2vh;
+    width: 45vh;
+}
+td{
+    margin: 0;
+    padding: 1vh;
+  
+}
+table{
+    border: 2px solid rgb(19, 54, 68);
+    border-radius: 12px;
+    margin: 4px;
+    width: 100%;
+}
+form{
+    margin: auto;
+    border-radius: ;
+    align-content: center;
+    background: rgb(24, 73, 95);
+}
+.text{
+    width: 80%;
+    border-radius: 10px;
+}
+input{
+    margin: 0;
+    padding: 2vh 2vw;
+    border-radius: 3px;
 }
