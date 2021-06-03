@@ -23,9 +23,9 @@
             <hr>
             <table class="panel">
                 <tr class="1">
-                    <td><input type="button" value="AC" onclick="insert('')"></td>
-                    <td><input type="button" value="C" onclick="insert('')"></td>
-                    <td><input type="button" value="%" onclick="form.display.value+='%'">
+                    <td><input type="button" value="AC" onclick="form.display.value=''"></td>
+                    <td><input type="button" value="C" onclick="form.display.value=''"></td>
+                    <td><input type="button" value="%" onclick="form.display.value+='%'"></td>
                     <td><input type="button" value="/" onclick="form.display.value+='/'"></td>
                 </tr>
                 </tr>
@@ -51,7 +51,7 @@
                 </tr>
 
                 <tr class="5">
-                    <td><input type="button" value="+/-" onclick="form.display.value+=''"></td>
+                    <td><input type="button" value="+/-" onclick="form.display.value= -(form.display.value)"></td>
                     <td><input type="button" value="0" onclick="form.display.value+='0'"></td>
                     <td><input type="button" value="." onclick="form.display.value+='.'"></td>
                     <td><input type="button" value="=" onclick="form.display.value=eval(form.display.value)"></td>
@@ -64,10 +64,5 @@
     </fieldset>
     <footer>copyright&copy-2020 | Prabhat</footer>
 </body>
-<script>
-    function insert(num) {
-        document.form.textview.value = document.form.textview.value + num
-    }
-</script>
 
 </html>
